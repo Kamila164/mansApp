@@ -1,0 +1,57 @@
+.jobresponse{
+    display: flex;
+    background-color: #4F5E7E;
+    color: #fff;
+}
+.jobresponseWrapper{
+    flex: 7;
+    margin: 0 15px 5px 15px;
+}
+
+.jobresponseCard{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 96%;
+    height: auto;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 1px 14px 0px rgba(0, 0,0, 0.8);
+    box-shadow:         0px 1px 14px 0px rgba(0, 0, 0, 0.8);
+    margin: 30px 0;
+    padding: 10px;
+    background-color: #4F5E7E;
+}
+.jobresponseTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.jobresponseTopLeft{
+    display: flex;
+    align-items: center;
+}
+.jobresponseRight{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.jobresponseType{
+    padding: 0 15px;
+}
+.jobresponseTime{
+    margin-left: 10px;
+    color: #d8d8da;
+    font-size: 12px;
+}
+.jobresponseTitle{
+    margin-bottom: 5px;
+}
+.jobresponseCompany{
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+.jobresponseDesc{
+    display: inline-block;
+    margin-bottom: 15px;
+    color: #f0f0f0;
+}
